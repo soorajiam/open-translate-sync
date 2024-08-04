@@ -1,4 +1,4 @@
-// README.md
+
 # @opentranslate.dev/sync
 
 A server-side compatible tool for syncing translations, part of the opentranslate.dev ecosystem.
