@@ -1,0 +1,26 @@
+{
+  "name": "@opentranslate.dev/sync",
+  "version": "1.0.0",
+  "description": "A server-side compatible tool for syncing translations, part of the opentranslate.dev ecosystem",
+  "main": "src/translation-sync.js",
+  "bin": {
+    "opentranslate-sync": "./cli.js"
+  },
+  "scripts": {
+    "test": "jest",
+    "security-audit": "npm audit"
+  },
+  "keywords": ["translation", "i18n", "sync", "community", "server-side", "opentranslate"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^8.0.0",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
