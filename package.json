@@ -1,10 +1,10 @@
 {
-  "name": "@opentranslate.dev/sync",
+  "name": "opentranslate-sync",
   "version": "1.0.0",
-  "description": "A server-side compatible tool for syncing translations, part of the opentranslate.dev ecosystem",
+  "description": "A server-side compatible tool for syncing translations",
   "main": "src/translation-sync.js",
   "bin": {
-    "opentranslate-sync": "./cli.js"
+    "opentranslate-sync": "cli.js"
   },
   "scripts": {
     "test": "jest",
