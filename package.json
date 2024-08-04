@@ -10,7 +10,14 @@
     "test": "jest",
     "security-audit": "npm audit"
   },
-  "keywords": ["translation", "i18n", "sync", "community", "server-side", "opentranslate"],
+  "keywords": [
+    "translation",
+    "i18n",
+    "sync",
+    "community",
+    "server-side",
+    "opentranslate"
+  ],
   "author": "Sooraj",
   "license": "MIT",
   "bugs": {
@@ -22,11 +29,11 @@
     "url": "git+https://github.com/soorajiam/open-translate-sync.git"
   },
   "dependencies": {
-    "commander": "^8.0.0",
+    "commander": "^8.3.0",
     "dotenv": "^10.0.0"
   },
   "devDependencies": {
-    "jest": "^27.0.6"
+    "jest": "^27.5.1"
   },
   "publishConfig": {
     "access": "public"
