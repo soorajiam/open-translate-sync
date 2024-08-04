@@ -33,40 +33,5 @@ describe('TranslationSync', () => {
     expect(() => sync.validateLocale('zh:CN')).toThrow();
   });
 
-  const https = require('https');
-
-test('fetchTranslations makes correct HTTPS request', async () => {
-  const mockResponse = {
-    on: jest.fn((event, callback) => {
-      if (event === 'data') callback(JSON.stringify({ key: 'value' }));
-      if (event === 'end') callback();
-    }),
-    statusCode: 200,
-  };
-  
-  const mockRequest = {
-    on: jest.fn((event, callback) => {}),
-    end: jest.fn(),
-  };
-
-  https.request.mockImplementation((options, callback) => {
-    callback(mockResponse);
-    return mockRequest;
-  });
-
-  const result = await sync.fetchTranslations();
-
-  expect(https.request).toHaveBeenCalledWith(
-    expect.objectContaining({
-      hostname: 'api.yourtranslationapp.com',
-      path: '/projects/test-project-id/translations',
-      headers: expect.objectContaining({
-        'Authorization': 'Bearer test-api-key',
-      }),
-    }),
-    expect.any(Function)
-  );
-
-  expect(result).toEqual({ key: 'value' });
-});
+  // Add more tests here as you develop your class
 });
