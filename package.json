@@ -11,8 +11,16 @@
     "security-audit": "npm audit"
   },
   "keywords": ["translation", "i18n", "sync", "community", "server-side", "opentranslate"],
-  "author": "Your Name",
+  "author": "Sooraj",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/soorajiam/open-translate-sync/issues"
+  },
+  "homepage": "https://github.com/soorajiam/open-translate-sync#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soorajiam/open-translate-sync.git"
+  },
   "dependencies": {
     "commander": "^8.0.0",
     "dotenv": "^10.0.0"
