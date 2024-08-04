@@ -1,12 +1,12 @@
 
-# @opentranslate.dev/sync
+# opentranslate-sync
 
-A server-side compatible tool for syncing translations, part of the opentranslate.dev ecosystem.
+A server-side compatible tool for syncing translations.
 
 ## Installation
 
 ```
-npm install @opentranslate.dev/sync
+npm install opentranslate-sync
 ```
 
 ## Configuration
